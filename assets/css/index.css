@@ -1,0 +1,238 @@
+body {
+    overflow-x: hidden
+}
+
+/*--------wrap---------*/
+@media screen and (min-width: 1001px) {
+    .index-shuffling {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .index-shuffling {
+        width: 1000px;
+        height: 100%;
+        overflow: hidden;
+    }
+}
+
+/*.index-shuffling{*/
+/*width: 1024px;*/
+/*height: 100%;*/
+/*overflow: hidden;*/
+/*}*/
+
+.index-shuffling #wrap {
+    width: 1920px;
+    height: 488px;
+    /*margin: 0 auto;*/
+    position: relative;
+    overflow-x: hidden;
+    left: 50%;
+    margin-left: -960px;
+    /*width: 1450px;*/
+}
+
+li {
+    float: left;
+}
+
+#tips li {
+    margin: 5px;
+    border: 1px solid #9b86bc;
+    width: 35px;
+    height: 15px;
+    line-height: 20px;
+    text-align: center;
+    /*color: #fff;*/
+    cursor: pointer;
+    transform: skewX(-25deg);
+    -o-transform: skewX(-25deg);
+    -webkit-transform: skewX(-25deg);
+    -moz-transform: skewX(-25deg);
+}
+
+.active {
+    background: #00a8ff;
+}
+
+#wrap img {
+    width: 100%;
+    vertical-align: top;
+}
+
+#content {
+    width: 9600px;
+    position: absolute;
+    left: -1200px;
+}
+
+#content li {
+    float: left;
+}
+
+#tips {
+    position: absolute;
+    right: 40px;
+    bottom: 25px;
+}
+
+/*------------index-content---------------------*/
+.index-content {
+    width: 100%;
+    margin-bottom: 370px;
+
+}
+
+.scroll {
+    width: 1020px;
+    height: 197px;
+}
+
+.scroll_left {
+    width: 15px;
+    height: 80px;
+    margin: 60px 15px 0 0;
+    /*background-color: #00c6ff;*/
+    float: left;
+    background: url("../img/zuo.png") no-repeat center;
+}
+
+.scroll_right {
+    width: 15px;
+    height: 80px;
+    margin: 60px 0 0 15px;
+    /*background-color: #00c6ff;*/
+    background: url("../img/you.png") no-repeat center;
+    float: left;
+}
+
+.pic {
+    width: 954px;
+    height: 207px;
+    float: left;
+}
+
+.pic ul {
+    display: block;
+}
+
+.pic li {
+    float: left;
+    display: inline;
+    width: 314px;
+    text-align: center;
+}
+
+/*--------------main-left-------------*/
+
+.main-left {
+    width: 390px;
+    /*height: 282px;*/
+}
+
+.item-text1 {
+    font-size: 18px;
+    color: #256cbe;
+}
+
+.item-text2 {
+    font-size: 14px;
+    color: #979797;
+}
+
+.item-sign {
+    width: 5px;
+    height: 5px;
+    display: inline-block;
+    margin: 3px 15px 3px 0;
+    box-shadow: 0 0 0 2px #36baff;
+    background-color: #256cbe;
+}
+
+.item-imgLeft {
+    width: 390px;
+    height: 100px;
+    margin: 40px 0 15px 0;
+    /*background-color: #00c6ff;*/
+    background: url("../img/right390.png") no-repeat;
+}
+
+.item-text3 {
+    color: #b0b0b0;
+    font-size: 13px;
+    text-indent: 2em;
+}
+
+/*------------main-right-----------------------*/
+.main-right {
+    width: 554px;
+    height: 316px;
+}
+
+.item-h3 {
+    color: #ff4e00;
+    margin-bottom: 20px;
+}
+
+.item-imgRight {
+    width: 554px;
+    height: 110px;
+    margin: 40px 0 15px 0;
+}
+
+.itemRight-imgLeft {
+    width: 180px;
+    height: 110px;
+    /*background-color: #00c6ff;*/
+    background: url("../img/left180.png") no-repeat;
+}
+
+.itemRight-textRight {
+    width: 350px;
+    height: 110px;
+}
+
+.item-ul li {
+    width: 554px;
+    height: 30px;
+    color: #b0b0b0;
+    line-height: 30px;
+
+}
+
+.item-ul li a {
+    color: #b0b0b0;
+}
+
+.border-btm-ob {
+    border-bottom: 1px solid #b0b0b0;
+
+}
+
+.itemSign {
+    width: 6px;
+    height: 5px;
+    display: inline-block;
+    margin: 3px 10px 3px 0;
+    background: url("../../assets/img/sprite.png") no-repeat -318px -118px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

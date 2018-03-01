@@ -1,0 +1,40 @@
+@charset "UTF-8";
+/*初始化开始*/
+body, div, ul, p, ol, li, h1, dl, dd, dt, pre, form, input, th, td, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+    font-family: 微软雅黑;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+img {
+    border: none;
+    display: block;
+}
+
+ol, ul, li {
+    list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+    font-weight: normal;
+}
+
+.floatL {
+    float: left;
+}
+
+.floatR {
+    float: right;
+}
+
+.clearFloat {
+    clear: both;
+}
+
+/*初始化结束*/

@@ -1,0 +1,29 @@
+.twoTitle-nav{
+    margin-top: 40px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #e7e7eb;
+}
+.twoTitle-nav-h1{
+    /*line-height: 1.4;*/
+    text-align: center;
+    font-weight: 400;
+    font-size: 24px;
+}
+.twoTitle-content{
+    margin-top: 30px;
+}
+
+.twoTitle-content-spacing{
+    line-height: 25px;
+    margin: 25px 0 25px 0;
+ }
+.twoTitle-content-img1{
+    margin: 0 auto;
+}
+.text-marginTop{
+    margin-top: 40px;
+
+}
+.text-marginBottom{
+    margin-bottom: 100px;
+}
